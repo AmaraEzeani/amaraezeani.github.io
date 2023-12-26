@@ -17,13 +17,13 @@
        <section class="posts">
            <article>
            <p>We were given the links provided below to study in order to answer the questions that were given:</p>
-           <b><a href="https://text.npr.org/985439655">https://text.npr.org/985439655</a> </b><br>
-           <b><a href="http://gauss.ececs.uc.edu/Project4/Documents/kill-chain.pdf">http://gauss.ececs.uc.edu/Project4/Documents/kill-chain.pdf</a> </b><br><br><br>
+           <p><b><a href="https://text.npr.org/985439655">https://text.npr.org/985439655</a> </b><br>
+            <b><a href="http://gauss.ececs.uc.edu/Project4/Documents/kill-chain.pdf">http://gauss.ececs.uc.edu/Project4/Documents/kill-chain.pdf</a> </b></p>
            <header>
                <h3 align="left">the questions are listed below:</h3>
            </header>
                <ul style="float:left;">
-                   <li style="float:left;">Create a table that analyses the solar winds exploit using the Cyber Kill
+                   <li style="float:left;"><p>Create a table that analyses the solar winds exploit using the Cyber Kill
                     Chain. Are there any phases that you cannot identify?
                     </li>
                    <li style="float:left;">Create a list of possible mitigations for each phase. Are there any phases you
@@ -31,6 +31,7 @@
                     </li>
                    <li style="float:left;">What tools would you utilise in each phase? Give reasons for your answer.</li>
                    <li style="float:left;">Create a slide deck presentation with up to 4 slides that discuss your solution.</li>
+                </p>
                </ul>
                <header>
                    <h3 align="left">Create a table that analyses the solar winds exploit using the Cyber Kill
@@ -89,43 +90,43 @@
                        <h3 align="left">Create a list of possible mitigations for each phase. Are there any phases you cannot mitigate?</h3>
                    </header>
                    <ol style="float:left;">
-                    <li><b>Reconnaissance:</b></li>
+                    <li style="float:left;"><b>Reconnaissance:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Implement strict access controls on sensitive information.</li>
                         <li style="float:left;">Monitor and analyze external information requests.</li>
                         <li style="float:left;">Educate employees about the risks of oversharing information online.</li>
                     </ul>
-                    <li><b>Weaponization:</b></li>
+                    <li style="float:left;"><b>Weaponization:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Employ email filtering to detect and block malicious attachments.</li>
                         <li style="float:left;">Keep software and applications up-to-date with the latest security patches.</li>
                         <li style="float:left;">Implement endpoint protection solutions to detect and prevent malware.</li>
                     </ul>
-                    <li><b>Delivery:</b></li>
+                    <li style="float:left;"><b>Delivery:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Employ email security solutions to detect and block phishing emails.</li>
                         <li style="float:left;">Use content filtering to block malicious websites.</li>
                         <li style="float:left;">Implement multi-factor authentication (MFA) for critical systems.</li>
                     </ul>
-                    <li><b>Exploitation:</b></li>
+                    <li style="float:left;"><b>Exploitation:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Regularly patch and update software to address known vulnerabilities.</li>
                         <li style="float:left;">Employ intrusion detection/prevention systems (IDS/IPS) to detect and block suspicious activities.</li>
                         <li style="float:left;">Utilize application whitelisting to allow only approved programs to run.</li>
                     </ul>
-                    <li><b>Installation:</b></li>
+                    <li style="float:left;"><b>Installation:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Implement robust endpoint security solutions to detect and remove malware.</li>
                         <li style="float:left;">Conduct regular security audits and penetration testing.</li>
                         <li style="float:left;">Employ host-based firewalls to limit inbound and outbound traffic.</li>
                     </ul>
-                    <li><b>Command and Control (C2):</b></li>
+                    <li style="float:left;"><b>Command and Control (C2):</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Utilize network monitoring tools to detect anomalous traffic patterns.</li>
                         <li style="float:left;">Implement network segmentation to limit lateral movement.</li>
                         <li style="float:left;">Employ threat intelligence feeds to identify known C2 servers.</li>
                     </ul>
-                    <li><b>Actions on Objectives:</b></li>
+                    <li style="float:left;"><b>Actions on Objectives:</b></li>
                     <ul style="float:left;">
                         <li style="float:left;">Implement data loss prevention (DLP) solutions to monitor and prevent unauthorized data exfiltration.</li>
                         <li style="float:left;">Conduct regular security awareness training for employees to recognize and report suspicious activity.</li>
@@ -137,44 +138,39 @@
                     <h3 align="left">What tools would you utilise in each phase? Give reasons for your answer.</h3>
                 </header>
              <ol style="float:left;">
-                <li><b>Reconnaissance:</b></li>
+                <li style="float:left;"><b>Reconnaissance:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Shodan and Censys: These are search engines for internet-connected devices. They can be used to identify potential targets by searching for specific software or services that may be vulnerable.</li>
+                    <li style="float:left;"><p>Shodan and Censys: These are search engines for internet-connected devices. They can be used to identify potential targets by searching for specific software or services that may be vulnerable.</p></li>
                 </ul>
-                <li><b>Weaponization:</b></li>
+                <li style="float:left;"><b>Weaponization:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Metasploit: A widely-used penetration testing framework that can be used to create, test, and execute exploits. In the SolarWinds exploit, attackers weaponized a legitimate software update, so specialized tools were not necessary for this phase.</li>
+                    <li style="float:left;"><p>Metasploit: A widely-used penetration testing framework that can be used to create, test, and execute exploits. In the SolarWinds exploit, attackers weaponized a legitimate software update, so specialized tools were not necessary for this phase.</p></li>
                 </ul>
-                <li><b>Delivery:</b></li>
+                <li style="float:left;"><b>Delivery:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Email Security Gateways (e.g., Proofpoint, Mimecast): These solutions filter inbound emails for malicious content and attachments. They can detect and prevent phishing emails, including those delivering weaponized payloads.</li>
+                    <li style="float:left;"><p>Email Security Gateways (e.g., Proofpoint, Mimecast): These solutions filter inbound emails for malicious content and attachments. They can detect and prevent phishing emails, including those delivering weaponized payloads.</p></li>
                 </ul>
-                <li><b>Exploitation:</b></li>
+                <li style="float:left;"><b>Exploitation:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Exploit Kits (e.g., Angler, Rig): In the case of a different type of exploit, exploit kits can be used to deliver and execute malicious payloads on vulnerable systems. However, in the SolarWinds exploit, the exploitation occurred through the compromised software update, making the use of specialized exploitation tools unnecessary.</li>
+                    <li style="float:left;"><p>Exploit Kits (e.g., Angler, Rig): In the case of a different type of exploit, exploit kits can be used to deliver and execute malicious payloads on vulnerable systems. However, in the SolarWinds exploit, the exploitation occurred through the compromised software update, making the use of specialized exploitation tools unnecessary.</p></li>
                 </ul>
-                <li><b>Installation:</b></li>
+                <li style="float:left;"><b>Installation:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Endpoint Protection Platforms (EPP): Solutions like CrowdStrike, Symantec, and others are used to protect endpoints from malware and other security threats. They can detect and remove malicious software, including the backdoor installed in the SolarWinds exploit.</li>
+                    <li style="float:left;"><p>Endpoint Protection Platforms (EPP): Solutions like CrowdStrike, Symantec, and others are used to protect endpoints from malware and other security threats. They can detect and remove malicious software, including the backdoor installed in the SolarWinds exploit.</p></li>
                 </ul>
-                <li><b>Command and Control (C2):</b></li>
+                <li style="float:left;"><b>Command and Control (C2):</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Network Monitoring Tools (e.g., Wireshark, Suricata): These tools can be used to monitor network traffic for unusual patterns or connections to known malicious domains. This can help identify and block communication channels established by the attacker.</li>
+                    <li style="float:left;"><p>Network Monitoring Tools (e.g., Wireshark, Suricata): These tools can be used to monitor network traffic for unusual patterns or connections to known malicious domains. This can help identify and block communication channels established by the attacker.</p></li>
                 </ul>
-                <li><b>Actions on Objectives:</b></li>
+                <li style="float:left;"><b>Actions on Objectives:</b></li>
                 <ul style="float:left;">
-                    <li style="float:left;">Data Loss Prevention (DLP) solutions (e.g., Symantec DLP, McAfee DLP): DLP tools monitor and prevent unauthorized data exfiltration. They can be configured to detect and block the unauthorized transfer of sensitive information.</li>
+                    <li style="float:left;"><p>Data Loss Prevention (DLP) solutions (e.g., Symantec DLP, McAfee DLP): DLP tools monitor and prevent unauthorized data exfiltration. They can be configured to detect and block the unauthorized transfer of sensitive information.</p></li>
                 </ul>
             </ol>
                    <header>
                        <h3 align="left">Create a slide deck presentation with up to 4 slides that discuss your solution. </h3>
                    </header>
-                   <p>
-                       Primarily, executives must recognise cyber security as a crucial component of their enterprise, akin to ensuring that their workplace is secured after hours (Almeida et al., 2020; Spremić & Šimunic, 2018).
-                        Because they haven't previously been exposed to cyber security threats, industries that are new to digitalization face unknown challenges (Almeida et al., 2020). Hackers discovered new vulnerabilities in cars 
-                        as they integrated more digital components, endangering the integrity of those systems (Spremić & Šimunic, 2018). A McKinsey and Company study estimates that the majority of contemporary cars contain 100 million lines of code;
-                         in the next ten years, this number is predicted to triple (Deichmann et al., 2019). 
-                   </p>
+                   <b><a href="https://doguakdeniz-my.sharepoint.com/:p:/g/personal/20910588_emu_edu_tr/EUnn3zp9OspJjpJCtJqLFIQB8VxbccYuko1xUd9mPtp9Mg">Powerpoint presentation</a> </b>
        </article>
        </section>
            </div>

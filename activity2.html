@@ -41,12 +41,26 @@
                 <h3 align="left">traceroute</h3>
                 </header>
                    <p>I used traceroute to get the number of hops on the website, “emu.edu.tr”, and got this result.</p>
-                   <img src="images2/traceroute.jpg" alt="" style="width:800px;height:500px;"/><br><br>
+                   <img src="images2/trace.JPG" alt="" style="width:800px;height:500px;"/><br><br>
+                   <p> 
+                    I made some research to find out why I encountered asterisks instead. This is because asterisks represent situations where the router along the path doesn't respond to the particular type of packet that traceroute sends, 
+                    or the response is blocked by a firewall.
+                   </p>
+                   <h3 align="left">
+                    What does traceroute do?
+                   </h3>
+                   <p> 
+                    Traceroute is a network diagnostic tool that helps you trace the route that packets take from your computer to a destination host or website. 
+                    It's commonly used to identify the path and network delays between the source and destination.
+                   </p>
            </article>
         <article>
                    <header>
                        <h3 align="left">Which step causes the biggest delay in the route? What is the average duration of that delay?</h3>
                    </header>
+                   <P>
+                    I can't tell which step causes the biggest delay because of the issue I encountered in the previous step (using traceroute)
+                   </P>
                 <header>
                     <h3 align="left">What are the main nameservers for the website?</h3>
                     <h3 align="left">nslookup</h3>
@@ -60,6 +74,11 @@
                         <li style="float:left;">ns2.emu.edu.tr</li>
                     </ul> 
                         </div>
+                        
+                        <p>
+                            nslookup (Name Server Lookup) is a command-line tool used to query DNS (Domain Name System) 
+                            servers to obtain domain name or IP address information. It is often used in the context of network reconnaissance to gather information about domain names and their associated IP addresses.
+                        </p>
                     </div>
        </article>
        <article>
@@ -69,6 +88,14 @@
         <p>
         To obtain the registered contact, I used the command, “whois emu.edu.tr”, and I got the result as follows:</p>
         <img src="images2/whois.JPG" alt="" style="width:800px;height:500px;"/><br><br>
+        <h3 align="left">
+            What does the whois command do?
+        </h3>
+        <p>
+            The whois command is a command-line utility that allows users to retrieve information about domain registrations and IP address allocations
+             from domain registrars and regional Internet registries. The information provided by whois includes details about the owner of a domain, the domain's registration status, registration and expiration dates,
+              and contact information. For IP addresses, whois can provide information about the organization to which the IP address is allocated.
+        </p>
     </article>
     <article>
         <header>
@@ -78,13 +105,30 @@
             The MX record for the website was gotten using, “nslookup -type=mx google.com”, the results are as follows:
         </p>
         <img src="images2/nslookup2.JPG" alt="" /><br><br>
+        <header>
+            <h3 align="left">What does the nslookup -type do?</h3>
+        </header>
+        <p>
+            Allows you to specify the type of DNS record you want to query for. DNS (Domain Name System) is a hierarchical system that translates human-readable domain names into IP addresses and vice versa.
+             Different types of DNS records serve various purposes.
+        </p>
     </article>
     <article>
         <header>
             <h3 align="left">Where is the website hosted?</h3>
+            </header>
+            <p> 
+                To find the information about where the website is hosted, i used whois and the IP address as follows:
+            </p>
             <img src="images2/whoisIP1.JPG" alt="" /><br><br>
             <img src="images2/whoisIP3.JPG" alt="" /><br><br>
-        </header>
+            <header>
+                <h3 align="left">What does the whois (IP address) do?</h3>
+            </header>
+        <p>
+            It performs a reverse DNS lookup to find information about the organization or entity to which the IP address is assigned. 
+            The whois database provides information about IP address allocations, including details about the regional Internet registry (RIR) responsible for the address space and the organization to which the IP address is assigned.
+        </p>
     </article>
        </section>
            </div>
